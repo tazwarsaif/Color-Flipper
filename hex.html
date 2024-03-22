@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <div class="navcontain">
+            <div id="titleC">Color Flipper</div>
+            <div class="options">
+                <div id="simple" class="btn"><a href="index.html">Simple</a></div>
+                <div id="Hex" class="btn"><a href="hex.html">hex</a></div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="maincontain">
+        <div style="display: flex; gap: 15px; font-size: 50px;">
+            <div style="font-family: sans-serif;">Background-color:</div>
+            <div id="color" class="color" style="font-family: sans-serif;border: 1px solid; padding: 1px 70px;">White</div>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center;"><button class="btn colorbtn" id="clickme" style="font-family: sans-serif;">Click Me</button></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="hex.js"></script>
+</body>
+</html>

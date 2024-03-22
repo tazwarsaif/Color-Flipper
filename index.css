@@ -1,0 +1,58 @@
+.navcontain{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.3px solid rgba(0, 0, 0, 0.253);
+    box-shadow: 1px 1px 1px;
+}
+.options{
+    display: flex;
+    gap: 10px;
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#titleC{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    transition: background-color 0.25s;
+    padding: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: hsl(195, 100%, 78%);
+}
+.btn:active{
+    background-color: hsl(195, 100%, 68%);
+    color: black;
+}
+.maincontain{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25rem;
+}
+
+#clickme{
+    font-size: 30px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: background-color 0.25s;
+    cursor: pointer;
+}
+#clickme:hover{
+    background-color: hsl(0, 100%, 69%);
+}
+
+#clickme:active{
+    background-color: hsl(0, 100%, 49%);
+}
